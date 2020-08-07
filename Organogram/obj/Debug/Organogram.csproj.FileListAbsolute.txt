@@ -6,3 +6,11 @@ D:\Programy\Organogram\Organogram\obj\Debug\Organogram.csproj.CoreCompileInputs.
 D:\Programy\Organogram\Organogram\obj\Debug\Organogram.exe
 D:\Programy\Organogram\Organogram\obj\Debug\Organogram.pdb
 D:\Programy\Organogram\Organogram\obj\Debug\Organogram.csproj.ResolveComReference.cache
+D:\GitHub\Organogram\Organogram\bin\Debug\Organogram.exe.config
+D:\GitHub\Organogram\Organogram\bin\Debug\Organogram.exe
+D:\GitHub\Organogram\Organogram\bin\Debug\Organogram.pdb
+D:\GitHub\Organogram\Organogram\obj\Debug\Organogram.csprojAssemblyReference.cache
+D:\GitHub\Organogram\Organogram\obj\Debug\Organogram.csproj.ResolveComReference.cache
+D:\GitHub\Organogram\Organogram\obj\Debug\Organogram.csproj.CoreCompileInputs.cache
+D:\GitHub\Organogram\Organogram\obj\Debug\Organogram.exe
+D:\GitHub\Organogram\Organogram\obj\Debug\Organogram.pdb
