@@ -1,0 +1,8 @@
+D:\Programy\Organogram\Organogram\bin\Debug\Organogram.exe.config
+D:\Programy\Organogram\Organogram\bin\Debug\Organogram.exe
+D:\Programy\Organogram\Organogram\bin\Debug\Organogram.pdb
+D:\Programy\Organogram\Organogram\obj\Debug\Organogram.csprojAssemblyReference.cache
+D:\Programy\Organogram\Organogram\obj\Debug\Organogram.csproj.CoreCompileInputs.cache
+D:\Programy\Organogram\Organogram\obj\Debug\Organogram.exe
+D:\Programy\Organogram\Organogram\obj\Debug\Organogram.pdb
+D:\Programy\Organogram\Organogram\obj\Debug\Organogram.csproj.ResolveComReference.cache
