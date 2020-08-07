@@ -22,6 +22,10 @@ namespace Organogram
 
         public Person[] people;
 
+        /// <summary>
+        /// Gets access to .csv file, reads amount of rows, cols etc. Writes all data to "people" array.
+        /// </summary>
+        /// <param name="p">Path to .csv file</param>
         public Excel(string p)
         {
             excelApp = new Application();
@@ -66,7 +70,13 @@ namespace Organogram
             }
             return people;
         }
+        
 
+        /// <summary>
+        /// Gets all the children.
+        /// </summary>
+        /// <param name="id">Used to get children of a node with this id. 0 returns whole tree</param>
+        /// <param name="generation">Used to keep track how deep we are. 0 at the begining</param>
         public void GetChildren(int id, int generation)
         {
             Person[] children = new Person[rowCount + 1];
