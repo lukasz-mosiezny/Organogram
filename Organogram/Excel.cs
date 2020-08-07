@@ -21,8 +21,7 @@ namespace Organogram
         public int colCount;
 
         public Person[] people;
-        public Person[] roots;
-        //public Person[] children;
+
         public Excel(string p)
         {
             excelApp = new Application();
@@ -40,7 +39,6 @@ namespace Organogram
             colCount = excelRange.Columns.Count;
 
             people = ParseFields(people);
-
         }
 
         // Parsing all data.
@@ -69,7 +67,7 @@ namespace Organogram
             return people;
         }
 
-        public void GetChildren2(int id, int pokolenie)
+        public void GetChildren(int id, int generation)
         {
             Person[] children = new Person[rowCount + 1];
             int howMany = 0;
@@ -94,11 +92,11 @@ namespace Organogram
                 {
                     if (children[i].parentID != 0)
                     {
-                        string arrow = String.Concat(Enumerable.Repeat("--", pokolenie));
+                        string arrow = String.Concat(Enumerable.Repeat("--", generation));
                         Console.Write(arrow + ">");
                     }
                     Console.WriteLine(children[i].name + " " + children[i].surname + ", " + children[i].company + ", " + children[i].position);
-                    GetChildren2(children[i].id, pokolenie+1);
+                    GetChildren(children[i].id, generation+1);
                 }
             }
         }

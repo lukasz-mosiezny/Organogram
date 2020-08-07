@@ -17,7 +17,7 @@ namespace Organogram
             // Opening excel from given path, parsing all data.
             Excel excel = new Excel(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"companies_data.csv"));
 
-            excel.GetChildren2(0,0);
+            excel.GetChildren(0,0);
 
             // Closing excel.
             excel.excelApp.Quit();
